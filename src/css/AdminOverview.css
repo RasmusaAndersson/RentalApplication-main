@@ -1,0 +1,85 @@
+.admin-overview {
+    background-image: url('../../public/BackgroundAdmin.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 87vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: #DAA520;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    padding: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.card-item {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.card-item:last-child {
+    margin-bottom: 0;
+}
+
+select {
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.295);
+    box-shadow: 0 0 100px rgb(255, 199, 44);
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.table-container {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd00;
+    border-radius: 5px;
+    box-shadow: 0 0 100px hwb(0 2% 98%);
+}
+
+th {
+    background-color: #DAA520;
+}
+
+tr:nth-child(even) {
+    background-color: #d1d1d171;
+}
